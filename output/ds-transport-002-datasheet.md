@@ -17,7 +17,7 @@ documentation only: it does not host, mirror, transform, or republish any of the
 | **Dataset name** | Road Safety Data (STATS19) |
 | **Source URL (catalogue)** | https://www.data.gov.uk/dataset/road-accidents-safety-data |
 | **National Data Library entry** | https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data |
-| **Catalog id (Elyos candidate)** | cat-transport-002 |
+| **Catalog id (Hee-Lee Oss candidate)** | cat-transport-002 |
 | **Retrieval date** | 2026-06-28 |
 | **Contact (publisher)** | roadacc.stats@dft.gov.uk |
 
@@ -54,7 +54,7 @@ licence as **Open Government Licence v3.0** with publisher **Department for Tran
 (verified 2026-06-28).
 
 > Licence snapshot note: the acceptance criteria call for an archived copy + hash of the licence
-> text. Per Elyos guardrails this datasheet does not commit external content; the licence text
+> text. Per Hee-Lee Oss guardrails this datasheet does not commit external content; the licence text
 > should be archived and hashed at the per-dataset gate (the canonical text is at the licence URL
 > above). This step is **not yet completed** in this documentation pass — see Limitations.
 
@@ -329,7 +329,7 @@ if __name__ == "__main__":
 - **Collision-table fields** were verified against authoritative STATS19 schema documentation,
   but exact coded-value lookups (numeric code → label) were not enumerated here; consult the DfT
   data guide for full lookups.
-- **No data was sampled or downloaded.** Per Elyos guardrails this was a documentation-only pass;
+- **No data was sampled or downloaded.** Per Hee-Lee Oss guardrails this was a documentation-only pass;
   no header/streamed read or ≤1000-row sample was taken, so row counts, null rates, and a
   data-quality report were not produced from real data. The acceptance criterion for a sampled
   data dictionary + data-quality report is therefore only partially met.

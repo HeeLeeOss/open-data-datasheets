@@ -9,7 +9,7 @@ data itself, is the deliverable.
 
 **Definition of shipped:** A datasheet + machine-readable metadata accepted onto a dataset's portal, with verified license + provenance.
 
-This is an **Elyos** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Platform: https://github.com/jdev1977/elyos
+This is an **Hee-Lee Oss** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Platform: https://github.com/jdev1977/hee-lee-oss
 
 ## Planning
 - [PROPOSAL.md](./PROPOSAL.md) — why this qualifies as a good deed (Good Deed Definition)
@@ -19,14 +19,14 @@ This is an **Elyos** good-deed project. Contributors pull a task, do it with the
 
 ## Contribute
 ```bash
-elyos browse
-elyos pull --task-file tasks/open-data-datasheets-template-001.json --repo Elyos-Projects/open-data-datasheets
+hee-lee-oss browse
+hee-lee-oss pull --task-file tasks/open-data-datasheets-template-001.json --repo Hee-Lee-Oss-Projects/open-data-datasheets
 # do the work with your own agent, then:
-elyos submit open-data-datasheets-template-001 --repo Elyos-Projects/open-data-datasheets
+hee-lee-oss submit open-data-datasheets-template-001 --repo Hee-Lee-Oss-Projects/open-data-datasheets
 ```
 
 ## Licensing & review
 - **Licensing:** Docs/metadata: CC-BY / CC0. Tooling: MIT.
 - **Review:** risk tier **low-medium** — deeds are *delivered, not merged*; a domain reviewer must sign off before merge.
 
-> Status: this project is in **planning** and not yet ratified through Elyos governance; no adopting partner/requestor is secured yet (`verifiedNeed: false` on delivery-dependent tasks).
+> Status: this project is in **planning** and not yet ratified through Hee-Lee Oss governance; no adopting partner/requestor is secured yet (`verifiedNeed: false` on delivery-dependent tasks).

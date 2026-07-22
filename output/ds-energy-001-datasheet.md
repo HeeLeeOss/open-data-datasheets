@@ -14,7 +14,7 @@
 | Dataset | EIA Open Data API (v1 and v2) — energy time-series catalog |
 | Source URL | https://www.eia.gov/opendata/ |
 | API documentation | https://www.eia.gov/opendata/documentation.php |
-| Catalog id (Elyos) | cat-energy-001 |
+| Catalog id (Hee-Lee Oss) | cat-energy-001 |
 | Retrieval date | 2026-06-28 |
 | Required attribution string | `Source: U.S. Energy Information Administration (Jun 2026).` (per EIA Copyrights and Reuse Policy — include the publication/retrieval date) |
 

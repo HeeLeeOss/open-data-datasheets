@@ -1,6 +1,6 @@
 # ANALYSIS — open-data-datasheets
 
-> Competitive + improvement analysis for the Elyos good-deed project `open-data-datasheets`.
+> Competitive + improvement analysis for the Hee-Lee Oss good-deed project `open-data-datasheets`.
 > Sources: `planning/projects/open-data-datasheets/PLAN.md` (v0.4.0) and `DATASET-CATALOG.md` (v0.1.0),
 > plus web research cited inline. Date: 2026-06-28.
 
@@ -28,7 +28,7 @@ specific and, mostly, fixable.
 2. **The toolkit is TypeScript/Node, but the entire Croissant + Frictionless + data-inspection
    ecosystem is Python.** `mlcroissant`, `frictionless-py`, `tableschema`, pandas-based type
    inference, and most portal SDKs (CKAN's `ckanapi`, Socrata's `sodapy`) are Python. The plan's
-   "TypeScript, ESM, pnpm" mandate (inherited from Elyos conventions) forces either (a)
+   "TypeScript, ESM, pnpm" mandate (inherited from Hee-Lee Oss conventions) forces either (a)
    reimplementing Croissant validation in TS, or (b) shelling out to Python — neither is acknowledged
    as a risk. This is the single biggest unstated technical risk and deserves a row in the risk table
    and a decision in "Key decisions."
@@ -302,7 +302,7 @@ high-throughput, human-verified pipeline. **Default model `claude-opus-4-8`** fo
 steps; **`claude-haiku-4-5`** for cheap high-volume extraction; the **Batch API** (50% cost) for the
 80-task backlog; **prompt caching** to amortize the template/rubric across every dataset; **citations**
 to ground license reading; **structured outputs (`output_config.format`)** to emit the canonical
-model directly. Critically — the Elyos guardrails and the plan's own gate mean **Claude drafts and
+model directly. Critically — the Hee-Lee Oss guardrails and the plan's own gate mean **Claude drafts and
 proposes; humans verify and assert.** Legal/PII determinations must never be auto-accepted.
 
 **Where Claude adds the most value (high-confidence):**
@@ -351,7 +351,7 @@ proposes; humans verify and assert.** Legal/PII determinations must never be aut
 
 - **License acceptance / `permitsDerivatives`.** Claude proposes with citations; the License+PII
   reviewer asserts. The plan's "objective permits-derivatives criterion" must be set by a human from
-  cited evidence — never default-allowed on an LLM read. (Elyos guardrail + the plan's hard gate.)
+  cited evidence — never default-allowed on an LLM read. (Hee-Lee Oss guardrail + the plan's hard gate.)
 - **PII PASS.** Claude can fire flags; only a human (with the corrected methodology) can clear a
   dataset. A non-firing scan is not a pass.
 - **Reading the *full* dataset.** Respect the inspection protocol — Claude sees the bounded sample,
@@ -489,6 +489,6 @@ the verified-badge registry are the two highest-leverage flywheel accelerants.
 
 ---
 
-*Prepared for the Elyos `open-data-datasheets` maintainer. All competitor claims are grounded in the
+*Prepared for the Hee-Lee Oss `open-data-datasheets` maintainer. All competitor claims are grounded in the
 cited sources; license/PII determinations in any resulting deliverable must follow the project's
 human-verified gate — this analysis does not assert any dataset's license.*

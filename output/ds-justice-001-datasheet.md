@@ -26,7 +26,7 @@ This datasheet (the document you are reading) is licensed under **CC-BY-4.0**. I
   - "copy, publish, distribute and transmit the Information";
   - **"adapt the Information"** (i.e. create derivative works);
   - "exploit the Information commercially and non-commercially for example, by combining it with other Information, or by including it in your own product or application".
-- **Conclusion:** Adaptation (derivatives) and redistribution are permitted, subject to the attribution requirement above. This satisfies the Elyos source-licence gate for derivative documentation work.
+- **Conclusion:** Adaptation (derivatives) and redistribution are permitted, subject to the attribution requirement above. This satisfies the Hee-Lee Oss source-licence gate for derivative documentation work.
 - **Licence snapshot:** The canonical, archivable licence text is hosted by The National Archives at the URL above. Reviewers should archive a copy (e.g. via the Internet Archive) and record its content hash as the per-dataset gate artifact. (No licence text is committed to this repo to avoid mirroring third-party content beyond the cited URL.)
 
 ---

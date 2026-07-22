@@ -22,7 +22,7 @@ the underlying data, which carries its own licence/status described below.*
 | **Dataset** | Labor statistics time series — Consumer Price Index (CPI) and employment / labor-force series |
 | **Source URL (portal)** | https://www.bls.gov/data/ |
 | **Programmatic access** | BLS Public Data API v2 — https://www.bls.gov/developers/ |
-| **Catalog id (Elyos)** | cat-econ-005 |
+| **Catalog id (Hee-Lee Oss)** | cat-econ-005 |
 | **Retrieval date** | 2026-06-28 |
 | **Required attribution string** | "Source: U.S. Bureau of Labor Statistics (https://www.bls.gov/)." |
 
@@ -53,7 +53,7 @@ Government works carry no copyright restriction on reproduction or the creation 
 
 Because public-domain material is free of copyright, reproduction *and* derivative works
 (transformations, recombinations, analyses) are permitted. Attribution is requested, not legally
-required, but Elyos records and uses it (see attribution string above).
+required, but Hee-Lee Oss records and uses it (see attribution string above).
 
 > **Licence snapshot note:** The acceptance criterion asks for an archived copy + hash of the
 > licence text. The BLS site returned HTTP 403 to automated fetches during this deed, so the licence

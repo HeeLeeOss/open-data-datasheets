@@ -228,4 +228,4 @@ Expected when run against the genuine resource: a delimiter of `;` or `,`, ~38 c
 - **Partial field verification:** Only two of the bundle's resources were header-read; columns of the other four CSVs are marked UNVERIFIED. Row counts, exact delimiters, encodings, and null conventions were not exhaustively confirmed (bounded-access, header-only reads).
 - **Types inferred:** Data types come from single example values; integers may include blanks/zeros and the balance column may be negative.
 - **Licence reference URL:** The historical Etalab licence page now redirects to `alliance.numerique.gouv.fr`; the canonical text cited is the `etalab/licence-ouverte` repository. A formal hash/archive snapshot of the licence text should be attached at the review gate.
-- **No data hosted:** Per Elyos guardrails, no dataset content is mirrored, transformed, or committed; the validation script operates only on a file the user supplies locally.
+- **No data hosted:** Per Hee-Lee Oss guardrails, no dataset content is mirrored, transformed, or committed; the validation script operates only on a file the user supplies locally.

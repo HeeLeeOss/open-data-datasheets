@@ -4,7 +4,7 @@
 > is **not** a licence-blocking DRAFT. It is flagged because the GIAS "all establishment data"
 > download includes **personal data about named individuals** — head teacher name fields
 > (`HeadTitle`, `HeadFirstName`, `HeadLastName`, `HeadPreferredJobTitle`) and direct contact details
-> (`TelephoneNum`, `SchoolWebsite`). Under the Elyos refusal/PII guardrails this must be reviewed
+> (`TelephoneNum`, `SchoolWebsite`). Under the Hee-Lee Oss refusal/PII guardrails this must be reviewed
 > before the datasheet is treated as final. **No personal values are reproduced anywhere in this
 > file.** See *Limitations & gaps* for what could not be verified.
 
@@ -27,7 +27,7 @@ only: it does **not** host, mirror, transform, or republish any GIAS data.
 | Service / source | Get Information about Schools (GIAS) |
 | Source URL | https://www.get-information-schools.service.gov.uk/ |
 | Download portal | https://www.get-information-schools.service.gov.uk/Downloads |
-| Catalog id (Elyos) | cat-edu-005 |
+| Catalog id (Hee-Lee Oss) | cat-edu-005 |
 | Retrieval date | 2026-06-28 |
 | Crown copyright | © Crown copyright |
 
@@ -127,7 +127,7 @@ Not the result of survey sampling — it is an administrative register.
 
 **Preprocessing / cleaning.** DfE applies coded value lists (code-list spreadsheet accompanies the
 download). Consumers typically map codes to labels and parse `DD-MM-YYYY` dates. No cleaning was
-performed by Elyos (documentation only; no sample taken — portal blocked automated access).
+performed by Hee-Lee Oss (documentation only; no sample taken — portal blocked automated access).
 
 **Uses.** School lookup and linking via URN; education research; geographic/administrative analysis;
 joining to performance, finance and census datasets. **Not suitable** for purposes that re-identify
@@ -135,7 +135,7 @@ or directly contact named head teachers beyond the published official-register p
 fields should be excluded from derivative products unless a lawful basis is confirmed.
 
 **Distribution.** Published openly via the GIAS service as downloadable CSV (plus a code-list file).
-Under OGL v3.0. Elyos does **not** redistribute it; users must obtain it from the official portal.
+Under OGL v3.0. Hee-Lee Oss does **not** redistribute it; users must obtain it from the official portal.
 
 **Maintenance.** Maintained by the UK Department for Education; the dataset is refreshed frequently
 (daily "all establishment data" exports are typical). `LastChangedDate` tracks per-record updates.

@@ -18,7 +18,7 @@ mirror, transform, or republish any of the underlying dataset.*
 | Source URL | https://exoplanetarchive.ipac.caltech.edu/ |
 | Column docs | https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html |
 | Acknowledgment docs | https://exoplanetarchive.ipac.caltech.edu/docs/acknowledge.html |
-| Catalog id (Elyos) | cat-science-002 |
+| Catalog id (Hee-Lee Oss) | cat-science-002 |
 | Retrieval date | 2026-06-28 |
 
 **Required attribution string** (verbatim, from the archive's *Acknowledging the Archive* page):

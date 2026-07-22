@@ -5,7 +5,7 @@
 ## What this is (and what it is not)
 
 This is a **candidate backlog** of real, public open datasets that are plausible targets for an
-Elyos documentation **datasheet** deliverable (data dictionary + provenance + license record +
+Hee-Lee Oss documentation **datasheet** deliverable (data dictionary + provenance + license record +
 Datasheet-for-Datasets + Croissant metadata + a small validation script). It exists to drive the
 roadmap in `PLAN.md`: later milestones scale by triaging entries from this catalog into per-dataset
 documentation tasks.
@@ -226,7 +226,7 @@ artifact produced by `open-data-datasheets-gate-002` under `policy-022`.
 
 ## How to turn a catalog entry into a task
 
-Each accepted catalog row (after passing the gate) becomes one Elyos **Task JSON**
+Each accepted catalog row (after passing the gate) becomes one Hee-Lee Oss **Task JSON**
 (`packages/schema/src/schemas.ts`). Column → field mapping:
 
 | Catalog column | Task JSON field(s) | Notes |

@@ -17,7 +17,7 @@ documentation only: it does not host, mirror, transform, or republish any HUD da
 - **Representative layer used to verify structure:** HUD eGIS *Public Housing Developments*
   feature service (ArcGIS REST `FeatureServer/0` service metadata).
 - **Retrieval date:** 2026-06-28
-- **Catalog id (Elyos):** cat-housing-002
+- **Catalog id (Hee-Lee Oss):** cat-housing-002
 - **Required attribution string:**
   > Source: U.S. Department of Housing and Urban Development (HUD), Enterprise GIS Open Data
   > (https://hudgis-hud.opendata.arcgis.com/), retrieved 2026-06-28. A work of the U.S.
@@ -301,5 +301,5 @@ Expected structure summary (for the data-quality check):
 - **License:** Verified as a U.S. Government work (public domain, 17 U.S.C. § 105(a)),
   permitting derivatives. The portal asserts an attribution courtesy string in `copyrightText`
   but no copyright; no separate click-through terms were located/confirmed for this layer.
-- **No data handled:** Consistent with Elyos guardrails, no dataset rows were downloaded,
+- **No data handled:** Consistent with Hee-Lee Oss guardrails, no dataset rows were downloaded,
   transformed, hosted, or committed; only public service metadata and the statute were read.

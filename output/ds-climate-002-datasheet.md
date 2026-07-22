@@ -265,7 +265,7 @@ sha256sum cc-by-4.0.txt > cc-by-4.0.txt.sha256   # record hash alongside this da
   the full parameter catalogue, exact per-variable valid ranges, and GRIB packing precision were
   **not** individually verified and are marked unverified above. Model-level / pressure-level
   products are out of scope for this single-levels datasheet.
-- **No data inspected:** per Elyos guardrails and the bounded-access protocol, no dataset bytes
+- **No data inspected:** per Hee-Lee Oss guardrails and the bounded-access protocol, no dataset bytes
   were downloaded, sampled, mirrored, or committed. Structural expectations (grid size, coords,
   units) are derived from published documentation, not from a fetched sample, so the validation
   script's row/grid constants should be re-confirmed against an actual user-held file.

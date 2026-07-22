@@ -162,7 +162,7 @@ anonymized:boolean, notes}`, `fields[] {name, type, units, allowedValues, nullab
 caveats}`, `knownIssues[]`, `examples[]`, `specVersions {croissant, ckan, socrata, dcatUs}`,
 `completenessScore {before, after}`.
 
-**Tech stack.** TypeScript, ESM, pnpm workspaces (per Elyos conventions). Validators and adapters
+**Tech stack.** TypeScript, ESM, pnpm workspaces (per Hee-Lee Oss conventions). Validators and adapters
 are small Node packages with minimal dependencies. Documentation authored in Markdown + JSON/JSON-LD.
 No runtime services; everything runs locally or in CI.
 
@@ -402,7 +402,7 @@ throughput rather than truncating it.
 - **External services/portals:** CKAN, Socrata, data.gov; dataset repos (GitHub, Hugging Face,
   Zenodo). Integration is *output-only* metadata; no automated upload.
 - **Datasets:** specific public datasets — TO BE SELECTED via triage; none assumed in scope yet.
-- **Elyos pieces:** Task JSON schema (`packages/schema`), the donated-lane CLI workspace/PR flow
+- **Hee-Lee Oss pieces:** Task JSON schema (`packages/schema`), the donated-lane CLI workspace/PR flow
   (`packages/cli`), good-deed definition + refusal guardrails. No funded-lane/runner dependency
   (this project is donated lane).
 
@@ -425,7 +425,7 @@ throughput rather than truncating it.
   metadata files we publish.
 - **Secrets handling:** validators/adapters require no credentials by default. If a portal API
   token is ever needed for a contribution, it is supplied by the human submitting and must never be
-  written into logs, receipts, or committed files (per Elyos rules).
+  written into logs, receipts, or committed files (per Hee-Lee Oss rules).
 - **PII:** the dominant privacy concern is *upstream* PII in candidate datasets. Handled by the
   mandatory exclusion gate above. We do not download, store, or process personal data; we inspect
   schema/sample only enough to document, and exclude on any PII signal.
@@ -459,11 +459,11 @@ throughput rather than truncating it.
 
 ## References
 
-- Elyos work rules — `C:\code\elyos\CLAUDE.md`
-- Good Deed Definition + risk tiers — `C:\code\elyos\docs\good-deed-definition.md`
-- Task JSON schema — `C:\code\elyos\packages\schema\src\schemas.ts`
-- Proposal — `C:\code\elyos\governance\proposals\open-data-datasheets.md`
-- Candidate dataset catalog — `C:\code\elyos\planning\projects\open-data-datasheets\DATASET-CATALOG.md`
+- Hee-Lee Oss work rules — `C:\code\hee-lee-oss\CLAUDE.md`
+- Good Deed Definition + risk tiers — `C:\code\hee-lee-oss\docs\good-deed-definition.md`
+- Task JSON schema — `C:\code\hee-lee-oss\packages\schema\src\schemas.ts`
+- Proposal — `C:\code\hee-lee-oss\governance\proposals\open-data-datasheets.md`
+- Candidate dataset catalog — `C:\code\hee-lee-oss\planning\projects\open-data-datasheets\DATASET-CATALOG.md`
 - Datasheets for Datasets (Gebru et al., 2018/2021)
 - Croissant ML metadata format specification
 - DCAT / DCAT-US, schema.org/Dataset, SPDX license list

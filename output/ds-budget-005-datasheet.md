@@ -3,10 +3,10 @@
 > **STOP / REVIEW REQUIRED.** The task's first-pass assumption was that the BOOST data is
 > CC-BY-4.0 (commercial use + derivatives permitted). On verification at the World Bank Data
 > Catalog, the BOOST dataset entries are labelled **"Creative Commons Attribution-NonCommercial
-> 4.0 (CC BY-NC 4.0)"** — a **non-commercial** licence. Under the Elyos refusal guardrails, a
+> 4.0 (CC BY-NC 4.0)"** — a **non-commercial** licence. Under the Hee-Lee Oss refusal guardrails, a
 > source that is non-commercial must be surfaced and flagged rather than treated as fully open.
 > CC BY-NC *does* permit derivatives, but the **NC restriction conflicts with the assumed
-> CC-BY-4.0 status** and with Elyos's "primarily-public, freely-reusable" intent. This datasheet
+> CC-BY-4.0 status** and with Hee-Lee Oss's "primarily-public, freely-reusable" intent. This datasheet
 > is therefore published as a **DRAFT for human review**: do not rely on it as a clearance to
 > reuse BOOST data commercially. See "Source licence" and "Limitations & gaps" below.
 
@@ -69,7 +69,7 @@ licence **does not** confirm the unrestricted reuse assumed by the task.
 
 **Conclusion for the gate:** `licenseVerified = false` for the purposes of "permits derivatives
 *and* unrestricted (incl. commercial) reuse." The licence is verified to be **CC BY-NC 4.0**, a
-non-commercial licence. A human must decide whether Elyos's use is compatible with NC before any
+non-commercial licence. A human must decide whether Hee-Lee Oss's use is compatible with NC before any
 downstream use. Licence snapshot/hash for an archived copy of the licence text was **not** taken
 in this pass (see Limitations).
 

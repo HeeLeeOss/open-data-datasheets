@@ -12,7 +12,7 @@ One-line summary: A documentation datasheet for the World Bank's *Education Stat
 - **Dataset:** Education Statistics — All Indicators (EdStats).
 - **Source URL (documentation/access page):** https://databank.worldbank.org/source/education-statistics
 - **Catalog record:** https://datacatalog.worldbank.org/search/dataset/0038480/education-statistics
-- **Catalog id (Elyos candidate):** cat-edu-003
+- **Catalog id (Hee-Lee Oss candidate):** cat-edu-003
 - **Retrieval date:** 2026-06-28
 - **Required attribution string:**
   > Source: World Bank, *Education Statistics (EdStats) — All Indicators*. Retrieved 2026-06-28 from https://databank.worldbank.org/source/education-statistics. Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0). Changes, if any, are indicated by the reuser.

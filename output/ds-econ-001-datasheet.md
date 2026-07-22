@@ -17,7 +17,7 @@
 | Dataset | World Development Indicators (WDI) |
 | Source URL | https://databank.worldbank.org/source/world-development-indicators |
 | Data Catalog record | https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators |
-| Catalog id (Elyos) | cat-econ-001 |
+| Catalog id (Hee-Lee Oss) | cat-econ-001 |
 | Retrieval date | 2026-06-28 |
 | Programmatic access | World Bank Indicators API v2 (`https://api.worldbank.org/v2/`) |
 

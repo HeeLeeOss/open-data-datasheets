@@ -282,7 +282,7 @@ station-month file contains one or more of the core elements (PRCP/SNOW/SNWD/TMA
 
 ## Limitations & gaps
 
-- **Not independently row-validated.** Per Elyos guardrails and the PII/bounded-access protocol, no
+- **Not independently row-validated.** Per Hee-Lee Oss guardrails and the PII/bounded-access protocol, no
   data file was downloaded, sampled, or hosted. Field layouts are verified against the official
   `readme.txt` specification (2026-06-28), not against a downloaded sample. Byte-exact per-day
   column offsets beyond the first value block were inferred from the documented repeating pattern.

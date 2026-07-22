@@ -2,9 +2,9 @@
 
 > Status: Draft · Version: 0.4.0 · Last updated: 2026-06-28 · Owner: TBD (maintainer) · Lane: donated
 
-## How these tasks map to Elyos
+## How these tasks map to Hee-Lee Oss
 
-Each task below becomes an Elyos **Task JSON** validated against
+Each task below becomes a Hee-Lee Oss **Task JSON** validated against
 `packages/schema/src/schemas.ts`. Mapping of fields:
 
 - `id` — stable slug ID from the tables (e.g. `open-data-datasheets-template-001`).
@@ -285,8 +285,8 @@ committed `gate-002` artifact before work proceeds — listing it here does not 
     "pnpm build && pnpm test && pnpm lint pass for any committed tooling; commit is DCO signed-off."
   ],
   "resources": [
-    "C:\\code\\elyos\\planning\\projects\\open-data-datasheets\\PLAN.md",
-    "C:\\code\\elyos\\governance\\proposals\\open-data-datasheets.md",
+    "C:\\code\\hee-lee-oss\\planning\\projects\\open-data-datasheets\\PLAN.md",
+    "C:\\code\\hee-lee-oss\\governance\\proposals\\open-data-datasheets.md",
     "Datasheets for Datasets (Gebru et al.)",
     "Croissant ML metadata specification"
   ],

@@ -264,6 +264,6 @@ begins with a `##gff-version 3` directive. Row count varies by species/assembly/
 - **No release pinned.** Ensembl annotations are versioned by assembly + release; this datasheet is
   format-level. Reusers must pin a specific release for reproducibility.
 - **GTF column-9 syntax** differs from GFF3 and is described only briefly here.
-- **No data inspected.** Per Elyos guardrails, no dataset rows were downloaded, sampled, hosted, or
+- **No data inspected.** Per Hee-Lee Oss guardrails, no dataset rows were downloaded, sampled, hosted, or
   transformed; field definitions derive from the GFF3 specification and Ensembl documentation, not
   from a fetched data file. No personal/identifying data are present in genome annotation features.

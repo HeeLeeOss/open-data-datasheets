@@ -3,7 +3,7 @@
 > **Reason:** The task's first-pass licence assumption was `CC-BY-4.0` (permissive,
 > commercial reuse allowed). Verification against ESA's own sources shows the actual
 > licence is **CC BY-NC 3.0 IGO** — a **NonCommercial** licence. NonCommercial datasets
-> are an explicit Elyos guardrail trigger (see `CLAUDE.md`: "Violates a source's license"
+> are an explicit Hee-Lee Oss guardrail trigger (see `CLAUDE.md`: "Violates a source's license"
 > / "Primarily benefits a for-profit entity"). Derivatives *are* permitted, but only for
 > **non-commercial** use, and a separate authorisation is required for any commercial use.
 > This datasheet is published as a DRAFT so a human reviewer can decide whether the deed
@@ -26,7 +26,7 @@ Archive.
 |---|---|
 | Dataset | Gaia mission astrometry (`gaia_source` main catalogue) |
 | Publisher | European Space Agency (ESA) / Gaia Data Processing and Analysis Consortium (DPAC) |
-| Catalog id (Elyos) | cat-science-006 |
+| Catalog id (Hee-Lee Oss) | cat-science-006 |
 | Source / access portal | https://www.cosmos.esa.int/web/gaia/data-access |
 | Primary archive | Gaia ESA Archive — https://gea.esac.esa.int/archive/ |
 | Data model reference | https://gea.esac.esa.int/archive/documentation/ (GDR3 archive data model, `gaia_source`) |
@@ -61,7 +61,7 @@ publication that uses the data.
 **Why this fails the first-pass assumption:** The task context recorded the source licence as
 `CC-BY-4.0` ("permits derivatives — confirm at the gate"). Verification shows it is actually
 `CC BY-NC 3.0 IGO`. Because it is **NonCommercial**, it does not match the permissive CC-BY-4.0
-expected by the gate and triggers the Elyos licence guardrail. Per the task's hard guardrail
+expected by the gate and triggers the Hee-Lee Oss licence guardrail. Per the task's hard guardrail
 (non-commercial discovered → STOP, mark DRAFT, flag, still open PR), this file is a DRAFT.
 
 > **Licence snapshot note:** A hash + archived copy of the full licence text was NOT committed

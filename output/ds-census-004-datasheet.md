@@ -17,7 +17,7 @@ only: it does not host, mirror, transform, or republish any of the WPP data.*
 | **Dataset** | World Population Prospects (WPP), 2024 Revision (Online Edition) |
 | **Source URL** | https://population.un.org/wpp/ |
 | **Dataset / downloads page** | https://www.un.org/development/desa/pd/content/world-population-prospects-2024-dataset |
-| **Catalog id (Elyos)** | cat-census-004 |
+| **Catalog id (Hee-Lee Oss)** | cat-census-004 |
 | **Retrieval date** | 2026-06-28 |
 
 **Required attribution string (use verbatim when reusing the data):**

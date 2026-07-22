@@ -14,7 +14,7 @@ for EU Member States, EFTA, and candidate countries, compiled under the ESA 2010
 - **Publisher / source:** Eurostat (Statistical Office of the European Union).
 - **Dataset:** "National accounts & macro indicators".
 - **Source URL:** https://ec.europa.eu/eurostat/web/national-accounts
-- **Catalog id:** cat-econ-004 (Elyos task ds-econ-004).
+- **Catalog id:** cat-econ-004 (Hee-Lee Oss task ds-econ-004).
 - **Retrieval date:** 2026-06-28
 - **Methodology framework:** European System of Accounts (ESA 2010).
 - **Required attribution string:**

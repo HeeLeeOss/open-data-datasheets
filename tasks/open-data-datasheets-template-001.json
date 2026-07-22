@@ -21,8 +21,8 @@
     "pnpm build && pnpm test && pnpm lint pass for any committed tooling; commit is DCO signed-off."
   ],
   "resources": [
-    "C:\\code\\elyos\\planning\\projects\\open-data-datasheets\\PLAN.md",
-    "C:\\code\\elyos\\governance\\proposals\\open-data-datasheets.md",
+    "C:\\code\\hee-lee-oss\\planning\\projects\\open-data-datasheets\\PLAN.md",
+    "C:\\code\\hee-lee-oss\\governance\\proposals\\open-data-datasheets.md",
     "Datasheets for Datasets (Gebru et al.)",
     "Croissant ML metadata specification"
   ],

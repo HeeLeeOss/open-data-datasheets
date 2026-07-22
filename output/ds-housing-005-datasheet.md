@@ -16,7 +16,7 @@ conditions* collection.
 |---|---|
 | **Dataset name** | Housing statistics / Income and living conditions (housing indicators) |
 | **Publisher / data owner** | Eurostat — Statistical Office of the European Union (European Commission) |
-| **Catalog id (Elyos)** | cat-housing-005 |
+| **Catalog id (Hee-Lee Oss)** | cat-housing-005 |
 | **Domain theme URL** | https://ec.europa.eu/eurostat/web/income-and-living-conditions/data |
 | **Verified example dataset** | `ilc_lvho07a` — *Housing cost overburden rate by age, sex and poverty status* |
 | **Verification endpoint** | https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_lvho07a?format=JSON&time=2023 |
