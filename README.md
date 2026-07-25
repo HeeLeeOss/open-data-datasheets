@@ -9,7 +9,7 @@ data itself, is the deliverable.
 
 **Definition of shipped:** A datasheet + machine-readable metadata accepted onto a dataset's portal, with verified license + provenance.
 
-This is a **Hee-Lee Oss** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Get started: https://github.com/Hee-Lee-Oss-Projects/hee-lee-oss-downloads
+This is a **Hee-Lee Oss** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Get started: https://github.com/HeeLeeOss/hee-lee-oss-downloads
 
 ## Planning
 - [PROPOSAL.md](./PROPOSAL.md) — why this qualifies as a good deed (Good Deed Definition)
@@ -20,9 +20,9 @@ This is a **Hee-Lee Oss** good-deed project. Contributors pull a task, do it wit
 ## Contribute
 ```bash
 hee-lee-oss browse
-hee-lee-oss pull --task-file tasks/open-data-datasheets-template-001.json --repo Hee-Lee-Oss-Projects/open-data-datasheets
+hee-lee-oss pull --task-file tasks/open-data-datasheets-template-001.json --repo HeeLeeOss/open-data-datasheets
 # do the work with your own agent, then:
-hee-lee-oss submit open-data-datasheets-template-001 --repo Hee-Lee-Oss-Projects/open-data-datasheets
+hee-lee-oss submit open-data-datasheets-template-001 --repo HeeLeeOss/open-data-datasheets
 ```
 
 ## Licensing & review
